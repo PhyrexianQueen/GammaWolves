@@ -165,8 +165,450 @@
 				]
 			}
 		],
-		"equipment": [],
-		"keywords": [],
+		"equipment": [
+			{
+				"name": "Light Frame",
+				"specialRules": ["Light Frame"]
+			},
+			{
+				"name": "Medium Frame",
+				"specialRules": ["Medium Frame"]
+			},
+			{
+				"name": "Heavy Frame",
+				"specialRules": ["Heavy Frame"]
+			},
+			{
+				"name": "Bipedal",
+				"specialRules": ["Bipedal"]
+			},
+			{
+				"name": "Jet",
+				"specialRules": ["Jet"]
+			},
+			{
+				"name": "Multi-Limbed",
+				"specialRules": ["Multi-Limbed"]
+			},
+			{
+				"name": "Tracked",
+				"specialRules": ["Tracked"],
+				"adjustStatLimits": [
+					{
+						"stat": "weight",
+						"modifier": 5
+					}
+				]
+			},
+			{
+				"name": "Anti-Tank Missile (L)",
+				"weight": 5,
+				"specialRules": ["Anti-Tank Missile","Limited 1","Secondary System"]
+			},
+			
+			{
+				"name": "Autocannon (L)",
+				"weight": 5,
+				"specialRules": ["Autocannon","Assault"]
+			},
+			{
+				"name": "Ballistic Shield (L)",
+				"weight": 5,
+				"specialRules": ["Barrier 10","Melee Weapon"]
+			},
+			{
+				"name": "Laser (L)",
+				"weight": 7,
+				"specialRules": ["Laser","Beam","Energy","Stressful","Slow"]
+			},
+			{
+				"name": "Rapid Fire Energy Weapon (L)",
+				"weight": 7,
+				"specialRules": ["Rapid Fire Energy Weapon","Assault","Energy","Stressful"]
+			},
+			{
+				"name": "Rifle (L)",
+				"weight": 5,
+				"specialRules": ["Rifle","Accurate"]
+			},
+			{
+				"name": "Rocket Pack (L)",
+				"weight": 5,
+				"specialRules": ["Rocket Pack","Blast 6in","Indirect","Frag","Limited 1","Secondary System"]
+			},
+			{
+				"name": "Rotary Cannon (L)",
+				"weight": 5,
+				"specialRules": ["Rotary Cannon","Assault","Secondary System"]
+			},
+			{
+				"name": "Shot Cannon (L)",
+				"weight": 5,
+				"specialRules": ["Shot Cannon","Frag"]
+			},
+			{
+				"name": "Thermal Spear (L)",
+				"weight": 5,
+				"specialRules": ["Thermal Spear","Blast 3in","Secondary System","Energy","Melee"]
+			},
+			{
+				"name": "Melee Weapon (L)",
+				"weight": 2,
+				"specialRules": ["Melee Weapon","Melee","Secondary System"]
+			},
+			{
+				"name": "Energy Melee Weapon (L)",
+				"weight": 3,
+				"specialRules": ["Melee Weapon","Melee","Stressful","Beam","Secondary System"]
+			},
+			{
+				"name": "Anti-Tank Missile (M)",
+				"weight": 10,
+				"specialRules": ["Anti-Tank Missile","Limited 2","Secondary System"]
+			},
+			{
+				"name": "Autocannon (M)",
+				"weight": 6,
+				"specialRules": ["Autocannon","Assault"]
+			},
+			{
+				"name": "Ballistic Shield (M)",
+				"weight": 6,
+				"specialRules": ["Barrier 10","Melee Weapon"]
+			},
+			{
+				"name": "Laser (M)",
+				"weight": 8,
+				"specialRules": ["Laser","Beam","Energy","Stressful","Slow"]
+			},
+			{
+				"name": "Rapid Fire Energy Weapon (M)",
+				"weight": 8,
+				"specialRules": ["Rapid Fire Energy Weapon","Assault","Energy","Stressful"]
+			},
+			{
+				"name": "Rifle (M)",
+				"weight": 7,
+				"specialRules": ["Rifle","Accurate"]
+			},
+			{
+				"name": "Rocket Pack (M)",
+				"weight": 10,
+				"specialRules": ["Rocket Pack","Blast 6in","Indirect","Frag","Limited 2","Secondary System"]
+			},
+			{
+				"name": "Rotary Cannon (M)",
+				"weight": 6,
+				"specialRules": ["Rotary Cannon","Assault","Secondary System"]
+			},
+			{
+				"name": "Shot Cannon (M)",
+				"weight": 6,
+				"specialRules": ["Shot Cannon","Frag"]
+			},
+			{
+				"name": "Thermal Spear (M)",
+				"weight": 6,
+				"specialRules": ["Thermal Spear","Blast 3in","Secondary System","Energy","Melee"]
+			},
+			{
+				"name": "Melee Weapon (M)",
+				"weight": 2,
+				"specialRules": ["Melee Weapon","Melee","Secondary System"]
+			},
+			{
+				"name": "Energy Melee Weapon (M)",
+				"weight": 3,
+				"specialRules": ["Melee Weapon","Melee","Stressful","Beam","Secondary System"]
+			},
+			{
+				"name": "Anti-Tank Missile (H)",
+				"weight": 15,
+				"specialRules": ["Anti-Tank Missile","Limited 3","Secondary System"]
+			},
+			{
+				"name": "Autocannon (H)",
+				"weight": 7,
+				"specialRules": ["Autocannon","Assault"]
+			},
+			{
+				"name": "Ballistic Shield (H)",
+				"weight": 7,
+				"specialRules": ["Barrier 10","Melee Weapon"]
+			},
+			{
+				"name": "Howitzer (H)",
+				"weight": 10,
+				"specialRules": ["Howitzer","Artillery","Blast 3in","Indirect","Slow"]
+			},
+			{
+				"name": "Laser (H)",
+				"weight": 9,
+				"specialRules": ["Laser","Beam","Energy","Stressful","Slow"]
+			},
+			{
+				"name": "Rapid Fire Energy Weapon (H)",
+				"weight": 9,
+				"specialRules": ["Rapid Fire Energy Weapon","Assault","Energy","Stressful"]
+			},
+			{
+				"name": "Rifle (H)",
+				"weight": 8,
+				"specialRules": ["Rifle","Accurate"]
+			},
+			{
+				"name": "Rocket Pack (H)",
+				"weight": 15,
+				"specialRules": ["Rocket Pack","Blast 6in","Indirect","Frag","Limited 3","Secondary System"]
+			},
+			{
+				"name": "Rotary Cannon (H)",
+				"weight": 7,
+				"specialRules": ["Rotary Cannon","Assault","Secondary System"]
+			},
+			{
+				"name": "Shot Cannon (H)",
+				"weight": 7,
+				"specialRules": ["Shot Cannon","Frag"]
+			},
+			{
+				"name": "Thermal Spear (H)",
+				"weight": 7,
+				"specialRules": ["Thermal Spear","Blast 3in","Secondary System","Energy","Melee"]
+			},
+			{
+				"name": "Melee Weapon (H)",
+				"weight": 6,
+				"specialRules": ["Melee Weapon","Melee","Secondary System"]
+			},
+			{
+				"name": "Energy Melee Weapon (H)",
+				"weight": 3,
+				"specialRules": ["Melee Weapon","Melee","Stressful","Beam","Secondary System"]
+			},
+			{
+				"name": "Ablative Armor",
+				"weight": 1,
+				"specialRules": ["Ablative Armor"]
+			},
+			{
+				"name": "Chaff Launcher",
+				"weight": 1,
+				"specialRules": ["Chaff Launcher"]
+			},
+			{
+				"name": "Decoy Beacon",
+				"weight": 0,
+				"specialRules": ["Decoy Beacon"]
+			},
+			{
+				"name": "Ejection System",
+				"weight": 1,
+				"specialRules": ["Ejection System"]
+			},
+			{
+				"name": "Electronic Countermeasures",
+				"weight": 2,
+				"specialRules": ["Electronic Countermeasures"]
+			},
+			{
+				"name": "Energy Shielding",
+				"weight": 2,
+				"specialRules": ["Energy Shielding"]
+			},
+			{
+				"name": "Fuel Reserves",
+				"weight": 2,
+				"specialRules": ["Fuel Reserves"]
+			},
+			{
+				"name": "Heat Sink",
+				"weight": 1,
+				"specialRules": ["Heat Sink"]
+			}
+		],
+		"keywords": [
+			{
+				"name": "Light Frame",
+				"definition": "Base Speed: 8in\n Reactor: 2\n Hardpoints: 1x Primary, 1 Secondary\n Weight Tolerance: 15\n Sensor HP: 6\n Hardpoint HP: 6 per Hardpoint\n Body HP: 10\n Propulsion HP: 8\n Special Rules: Light Frames receive +1 to Evade Test Results.\n Light Frames may Evade 1 Additional Time, even after a Pilot is fully Stressed."
+			},
+			{
+				"name": "Medium Frame",
+				"definition": "Base Speed: 6in\n Reactor: 4\n Hardpoints: 2x Primary L/R, 1 Secondary\n Weight Tolerance: 25\n Sensor HP: 8\n Hardpoint HP: 6 per Primary Hardpoint, 5 for Secondary Hardpoint\n Body HP: 18\n Propulsion HP: 12\n Special Rules: No Special Rules."
+			},
+			{
+				"name": "Heavy Frame",
+				"definition": "Base Speed: 4in\n Reactor: 6\n Hardpoints: 2x Primary L/R, 2x Secondary L/R\n Weight Tolerance: 30\n Sensor HP: 12\n Hardpoint HP: 8 per Hardpoint\n Body HP: 28\n Propulsion HP: 18\n Special Rules: Heavy Frames Suffer -1 to Evade Test Results,"
+			},
+			{
+				"name": "Bipedal",
+				"definition": "No Special Rules"
+			},
+			{
+				"name": "Jet",
+				"definition": "Doesn't halve distance travelled when Maneuvering/Evading in Side or Rear Arcs.\n Ignores Movement Reduction for Broken Terrain unless Propulsion is Critically Damaged.\n During a Maneuver, may burn additional reserves to move Vertically or Horizontall. Stress their Reactor an additional time and reduce the War-Clock by one.\n May move its Speed both Horizontally and Vertically and end its Maneuver on top of Impassable Terrain so long as it fits.\n Takes no Damage from Drops."
+			},
+			{
+				"name": "Multi-Limbed",
+				"definition": "Counts as having remained stationary for the purposes of the Gunnery Phase.\n Does not reduce its movement for Maneuvering through Broken Terrain.\n Increase total number of Damage Boxes on this Frame's propulsion by 1."
+			},
+			{
+				"name": "Tracked",
+				"definition": "Gains +2in of movement in Maneuver Phase when moving in it's Front and Rear 90° Arc in a Straight Line.\n Evading in the Side Arc is at Quarter Speed.\n Ignores movement reduction for Broken Ground.\n Gain 5 Additional Weight Tolerance to any tracked frames."
+			},
+			{
+				"name": "Anti-Tank Missile",
+				"definition": "Range: 12-36in\n Bonus Dice: 1\n Damage: 3"
+			},
+			{
+				"name": "Autocannon",
+				"definition": "Range: 0-18in\n Bonus Dice: 3\n Damage: 1.5"
+			},
+			{
+				"name": "Ballistic Shield",
+				"definition": "Can be used as a Melee Weapon unless it is disabled. If 2 Ballistic Shields are taken, instead of Barrier 10, it has Barrier 15."
+			},
+			{
+				"name": "Howitzer",
+				"definition": "Range: 12-36in\n Bonus Dice: 1\n Damage: 4"
+			},
+			{
+				"name": "Laser",
+				"definition": "Range: 0-24in\n Bonus Dice: 1\n Damage: 6"
+			},
+			{
+				"name": "Rapid Fire Energy Weapon",
+				"definition": "Range: 0-18in\n Bonus Dice: 2\n Damage: 2"
+			},
+			{
+				"name": "Rifle",
+				"definition": "Range: 6-30in\n Bonus Dice: 2\n Damage: 2"
+			},
+			{
+				"name": "Rocket Pack",
+				"definition": "Range: 12-24in\n Bonus Dice: 4\n Damage: 1"
+			},
+			{
+				"name": "Rotary Cannon",
+				"definition": "Range: 0-16in\n Bonus Dice: 6\n Damage: 0.5"
+			},
+			{
+				"name": "Shot Cannon",
+				"definition": "Range: 0-12in\n Bonus Dice: 4\n Damage: 1.5"
+			},
+			{
+				"name": "Thermal Spear",
+				"definition": "Range: 0-12in\n Bonus Dice: 1\n Damage: 0.5"
+			},
+			{
+				"name": "Melee Weapon",
+				"definition": "Range: 0-3in\n Bonus Dice: 2\n Damage: 3"
+			},
+			{
+				"name": "Energy Melee Weapon",
+				"definition": "Range: 0-3in\n Bonus Dice: 2\n Damage: 5"
+			},
+			{
+				"name": "Accurate",
+				"definition": "Reroll failed Gunnery Tests if this Frame did not Maneuver or Evade this turn."
+			},
+			{
+				"name": "Artillery",
+				"definition": "May not be activated if the Frame Moved during the Manuever Phase or Evaded during this Gunnery Phase."
+			},
+			{
+				"name": "Assault",
+				"definition": "Unmodified results of 6 for Gunnery Tests count as 2 Successes instead of 1."
+			},
+			{
+				"name": "Beam",
+				"definition": "During a Gunnery Test, after you determine Hit Location and spend any Successes to adjust aim, but before totalling the Damage, reduce the number of Net Successes to a maximum of One per Loadout participating in the action."
+			},
+			{
+				"name": "Energy",
+				"definition": "If this Loadout causes Damage to the target, also Stress the target Frame's Reactor by one. If its Reactor is already at Maximum Stress, apply an additional point of Damage to the target Frame's Body after the Damage from the attack is resolved."
+			},
+			{
+				"name": "Frag",
+				"definition": "When you attack with this Loadout at Effective range, the target suffers -1 to all Evade rolls. Outside Effective Range, this weapon suffeers -0.5 to its base Damage."
+			},
+			{
+				"name": "Indirect",
+				"definition": "May target Frame's in your Front 90° Arc but not within LOS. Target must be a Frame, not a Contact Marker. When you make the Gunnery Test for an Indirect Loadout, it is always considered outside Effective Range."
+			},
+			{
+				"name": "Melee",
+				"definition": "When attacking the enemy Frame, use Pilot's Maneuver Skill instead of Gunnery Skill for the Test. Cannot be activated outside Effective Range. May determine Snape Fire from Either starting or Ending position of an enemy Frame's Maneuver. If the Target Frame does not declare an Evade, and you are not Snap Firing, the attacking Player may select the Hit Location instead of rolling."
+			},
+			{
+				"name": "Secondary System",
+				"definition": "May be mounted on a frame's Secondary Hardpoint. Can also be mounted on Primary Hardpoints as well."
+			},
+			{
+				"name": "Slow",
+				"definition": "Cannot Snap Fire."
+			},
+			{
+				"name": "Stressful",
+				"definition": "Each time this Loadout is used in a Gunnery Action, add 1 Point of Stress to the Frame's Reactor. If the Reactor is already at Maximum Stress, inflict 1 Damage to the Body of the Frame activating this Loadout instead."
+			},
+			{
+				"name": "Barrier 10",
+				"definition": "When the Frame is attacked from its Front or the Side the Barrier is mounted on for Medium and Heavy Frames, or either side for Light Frames, the Barrier may absorb up to 10 Damage. Do not roll for Location if attacking in the Barrier's Arc."
+			},
+			{
+				"name": "Blast 3in",
+				"definition": "When this weapon inflicts Damage, inflict 1 additional Damage to the Body of the Damaged Frame and any other Frame (Friendly or Enemy) within 3 inches of the original target."
+			},
+			{
+				"name": "Blast 6in",
+				"definition": "When this weapon inflicts Damage, inflict 1 additional Damage to the Body of the Damaged Frame and any other Frame (Friendly or Enemy) within 6 inches of the original target."
+			},
+			{
+				"name": "Limited 1",
+				"definition": "May only be activated once per Engagement. After activation, reduce Frame's current weight by 5 for the rest of the Mission."
+			},
+			{
+				"name": "Limited 2",
+				"definition": "May only be activated twice per Engagement. After each activation, reduce Frame's current weight by 5 for the rest of the Mission."
+			},
+			{
+				"name": "Limited 3",
+				"definition": "May only be activated thrice per Engagement. After each activation, reduce Frame's current weight by 5 for the rest of the Mission."
+			},
+			{
+				"name": "Ablative Armor",
+				"definition": "Can be purchased for each Hardpoint, Frame Body, Sensor, and Propulsion System. For the area assigned an Ablative Armor, increase the amount of Damage that area can take by 1. Material Cost and Weight is applied each time it is purchased."
+			},
+			{
+				"name": "Chaff Launcher",
+				"definition": "Once per Engagement, when this Frame is targeted by a Rocket Pack or Anti-Tank Missile, you may deploy the Chaff Launcher. Attacking Frame suffers -1 to Gunnery Test results for that attack."
+			},
+			{
+				"name": "Decoy Beacon",
+				"definition": "When deploying this Frame to the battlefield as a Contact Marker, you may deploy an additional Contact Marker anywhere within 18in of the first and in a legal deployment area, not in Lock with any enemy Frames. Secretly note which Contact Marker is the actual Frame. When a Decoy Beacon Contact Marker is in Lock with an enemy Frame, remove it from the battlefield. Decoy Beacon Contact Marker may not move or take actions during the Maneuver Phase."
+			},
+			{
+				"name": "Ejection System",
+				"definition": "If using option Bailing Out Rules, place Pilot anywhere within 12in of the Frame instead of base contact. If this would place them outside the Area of Operations, the pilot automatically succeeds in escaping to the Crawler."
+			},
+			{
+				"name": "Electronic Countermeasures",
+				"definition": "(ECM) - When targetted by Rockets or Missiles, the Pilot may chose to use ECM instad of attempting to Evade. Stress the Pilot, then Oppose the Gunnery Test with a Technical Test instead, adding +1 to the results. This Frame does not make any movement at the end of this Opposed Test."
+			},
+			{
+				"name": "Energy Shielding",
+				"definition": "Ignore additional Stress to Reactors the first time this Frame is targeted by Energy Weapons during an Engagement."
+			},
+			{
+				"name": "Fuel Reserves",
+				"definition": "Add +3 to your War-Clock for each Frame in your Crew with this Loadout."
+			},
+			{
+				"name": "Heat Sink",
+				"definition": "Add +1 Success to Technical Tests during the Cooldown Phase."
+			}
+		],
 		"platoons": [
 			{
 				"name": "Bolschev Rookie Pilot",
@@ -178,7 +620,7 @@
 						"name": "Bolschev"
 					}
 				],
-				"points": 2
+				"pilotPoints": 2
 			},
 			{
 				"name": "Bolschev Ace Rookie Pilot",
@@ -194,7 +636,7 @@
 						"name": "Bolschev"
 					}
 				],
-				"points": 3
+				"pilotPoints": 3
 			},
 			{
 				"name": "Bolschev Trained Pilot",
@@ -206,7 +648,7 @@
 						"name": "Bolschev"
 					}
 				],
-				"points": 3
+				"pilotPoints": 3
 			},
 			{
 				"name": "Bolschev Ace Trained Pilot",
@@ -222,7 +664,7 @@
 						"name": "Bolschev"
 					}
 				],
-				"points": 4
+				"pilotPoints": 4
 			},
 			{
 				"name": "Bolschev Veteran Pilot",
@@ -234,7 +676,7 @@
 						"name": "Bolschev"
 					}
 				],
-				"points": 4
+				"pilotPoints": 4
 			},
 			{
 				"name": "Bolschev Ace Veteran Pilot",
@@ -249,7 +691,7 @@
 						"name": "Bolschev"
 					}
 				],
-				"points": 5
+				"pilotPoints": 5
 			},
 			{
 				"name": "The Burg Rookie Pilot",
@@ -261,7 +703,7 @@
 						"name": "The Burg"
 					}
 				],
-				"points": 2
+				"pilotPoints": 2
 			},
 			{
 				"name": "The Burg Ace Rookie Pilot",
@@ -277,7 +719,7 @@
 						"name": "The Burg"
 					}
 				],
-				"points": 3
+				"pilotPoints": 3
 			},
 			{
 				"name": "The Burg Trained Pilot",
@@ -289,7 +731,7 @@
 						"name": "The Burg"
 					}
 				],
-				"points": 3
+				"pilotPoints": 3
 			},
 			{
 				"name": "The Burg Ace Trained Pilot",
@@ -305,7 +747,7 @@
 						"name": "The Burg"
 					}
 				],
-				"points": 4
+				"pilotPoints": 4
 			},
 			{
 				"name": "The Burg Veteran Pilot",
@@ -317,7 +759,7 @@
 						"name": "The Burg"
 					}
 				],
-				"points": 4
+				"pilotPoints": 4
 			},
 			{
 				"name": "The Burg Ace Veteran Pilot",
@@ -332,7 +774,7 @@
 						"name": "The Burg"
 					}
 				],
-				"points": 5
+				"pilotPoints": 5
 			},
 			{
 				"name": "Ghosts of Tiamat Trained Pilot",
@@ -344,7 +786,7 @@
 						"name": "Ghosts of Tiamat"
 					}
 				],
-				"points": 3
+				"pilotPoints": 3
 			},
 			{
 				"name": "Hinode Rookie Pilot",
@@ -356,7 +798,7 @@
 						"name": "Hinode"
 					}
 				],
-				"points": 2
+				"pilotPoints": 2
 			},
 			{
 				"name": "Hinode Ace Rookie Pilot",
@@ -372,7 +814,7 @@
 						"name": "Hinode"
 					}
 				],
-				"points": 3
+				"pilotPoints": 3
 			},
 			{
 				"name": "Hinode Trained Pilot",
@@ -384,7 +826,7 @@
 						"name": "Hinode"
 					}
 				],
-				"points": 3
+				"pilotPoints": 3
 			},
 			{
 				"name": "Hinode Ace Trained Pilot",
@@ -400,7 +842,7 @@
 						"name": "Hinode"
 					}
 				],
-				"points": 4
+				"pilotPoints": 4
 			},
 			{
 				"name": "Hinode Veteran Pilot",
@@ -412,7 +854,7 @@
 						"name": "Hinode"
 					}
 				],
-				"points": 4
+				"pilotPoints": 4
 			},
 			{
 				"name": "Hinode Ace Veteran Pilot",
@@ -427,7 +869,7 @@
 						"name": "Hinode"
 					}
 				],
-				"points": 5
+				"pilotPoints": 5
 			},
 			{
 				"name": "North-Star Rookie Pilot",
@@ -439,7 +881,7 @@
 						"name": "North-Star"
 					}
 				],
-				"points": 2
+				"pilotPoints": 2
 			},
 			{
 				"name": "North-Star Ace Rookie Pilot",
@@ -455,7 +897,7 @@
 						"name": "North-Star"
 					}
 				],
-				"points": 3
+				"pilotPoints": 3
 			},
 			{
 				"name": "North-Star Trained Pilot",
@@ -467,7 +909,7 @@
 						"name": "North-Star"
 					}
 				],
-				"points": 3
+				"pilotPoints": 3
 			},
 			{
 				"name": "North-Star Ace Trained Pilot",
@@ -483,7 +925,7 @@
 						"name": "North-Star"
 					}
 				],
-				"points": 4
+				"pilotPoints": 4
 			},
 			{
 				"name": "North-Star Veteran Pilot",
@@ -495,7 +937,7 @@
 						"name": "North-Star"
 					}
 				],
-				"points": 4
+				"pilotPoints": 4
 			},
 			{
 				"name": "North-Star Ace Veteran Pilot",
@@ -510,7 +952,7 @@
 						"name": "North-Star"
 					}
 				],
-				"points": 5
+				"pilotPoints": 5
 			},
 			{
 				"name": "Ronin Rookie Pilot",
@@ -522,7 +964,7 @@
 						"name": "Ronin"
 					}
 				],
-				"points": 2
+				"pilotPoints": 2
 			},
 			{
 				"name": "Ronin Ace Rookie Pilot",
@@ -538,7 +980,7 @@
 						"name": "Ronin"
 					}
 				],
-				"points": 3
+				"pilotPoints": 3
 			},
 			{
 				"name": "Ronin Trained Pilot",
@@ -550,7 +992,7 @@
 						"name": "Ronin"
 					}
 				],
-				"points": 3
+				"pilotPoints": 3
 			},
 			{
 				"name": "Ronin Ace Trained Pilot",
@@ -566,7 +1008,7 @@
 						"name": "Ronin"
 					}
 				],
-				"points": 4
+				"pilotPoints": 4
 			},
 			{
 				"name": "Ronin Veteran Pilot",
@@ -578,7 +1020,7 @@
 						"name": "Ronin"
 					}
 				],
-				"points": 4
+				"pilotPoints": 4
 			},
 			{
 				"name": "Ronin Ace Veteran Pilot",
@@ -593,7 +1035,7 @@
 						"name": "Ronin"
 					}
 				],
-				"points": 5
+				"pilotPoints": 5
 			}
 		],
 		"units": [
@@ -624,6 +1066,12 @@
 				"points": 0,
 				"models": 1,
 				"limit": 1,
+				"statLimits": [
+					{
+						"stat": "weight",
+						"limit": 15
+					}
+				],
 				"sortPriority": 1,
 				"limits": [
 					{
@@ -636,175 +1084,175 @@
 					{
 						"name": "Bipedal",
 						"addsPrefix": "Bipedal ",
-						"points": 0,
+						"materialPoints": 0,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Multi-Limbed",
 						"addsPrefix": "Multi-Limbed ",
-						"points": 20,
+						"materialPoints": 20,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Tracked",
 						"addsPrefix": "Tracked ",
-						"points": 15,
+						"materialPoints": 15,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Ablative Armor",
-						"points": 10,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"max": 5
 					},
 					{
 						"name": "Anti-Tank Missile (L)",
-						"points": 10,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Autocannon",
-						"points": 20,
+						"name": "Autocannon (L)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Ballistic Shield",
-						"points": 15,
+						"name": "Ballistic Shield (L)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Laser",
-						"points": 30,
+						"name": "Laser (L)",
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rapid Fire Energy Weapon",
-						"points": 25,
+						"name": "Rapid Fire Energy Weapon (L)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rifle",
-						"points": 25,
+						"name": "Rifle (L)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Rocket Pack (L)",
-						"points": 10,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rotary Cannon",
-						"points": 15,
+						"name": "Rotary Cannon (L)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Shot Cannon",
-						"points": 25,
+						"name": "Shot Cannon (L)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Thermal Spear",
-						"points": 20,
+						"name": "Thermal Spear (L)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon",
-						"points": 10,
+						"name": "Melee Weapon (L)",
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon, Energy",
-						"points": 15,
+						"name": "Melee Weapon, Energy (L)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Chaff Launcher",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Decoy Beacon",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Ejection System",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
-						"name": "Electronic Counter MEasures",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"name": "Electronic Counter Measures",
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Energy Shielding",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Fuel Reserves",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Heat Sink",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					}
 				],
 				"keywords": [],
 				"specialText": "",
-				"equipment": []
+				"equipment": ["Light Frame"]
 			},
 			{
 				"name": "Medium Frame, Bolschev",
@@ -833,6 +1281,12 @@
 				"points": 0,
 				"models": 1,
 				"sortPriority": 1,
+				"statLimits": [
+					{
+						"stat": "weight",
+						"limit": 25
+					}
+				],
 				"limits": [
 					{
 						"key": "Frame",
@@ -844,180 +1298,186 @@
 					{
 						"name": "Bipedal",
 						"addsPrefix": "Bipedal ",
-						"points": 0,
+						"materialPoints": 0,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Multi-Limbed",
 						"addsPrefix": "Multi-Limbed ",
-						"points": 30,
+						"materialPoints": 30,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Tracked",
 						"addsPrefix": "Tracked ",
-						"points": 25,
+						"materialPoints": 25,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
-						"name": "Ablative Armor",
-						"points": 10,
+						"name": "Ablative Armor (M)",
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"max": 6
 					},
 					{
 						"name": "Anti-Tank Missile (M)",
-						"points": 20,
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Autocannon",
-						"points": 40,
+						"name": "Autocannon (M)",
+						"materialPoints": 40,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Ballistic Shield",
-						"points": 25,
+						"name": "Ballistic Shield (M)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Laser",
-						"points": 45,
+						"name": "Laser (M)",
+						"materialPoints": 45,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rapid Fire Energy Weapon",
-						"points": 45,
+						"name": "Rapid Fire Energy Weapon (M)",
+						"materialPoints": 45,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rifle",
-						"points": 40,
+						"name": "Rifle (M)",
+						"materialPoints": 40,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Rocket Pack (M)",
-						"points": 20,
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rotary Cannon",
-						"points": 20,
+						"name": "Rotary Cannon (M)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Shot Cannon",
-						"points": 45,
+						"name": "Shot Cannon (M)",
+						"materialPoints": 45,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Thermal Spear",
-						"points": 30,
+						"name": "Thermal Spear (M)",
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon",
-						"points": 15,
+						"name": "Melee Weapon (M)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon, Energy",
-						"points": 20,
+						"name": "Melee Weapon, Energy (M)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Chaff Launcher",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Decoy Beacon",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Ejection System",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
-						"name": "Electronic Counter MEasures",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"name": "Electronic Counter Measures",
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Energy Shielding",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Fuel Reserves",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Heat Sink",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					}
 				],
 				"keywords": [],
 				"specialText": "",
-				"equipment": []
+				"equipment": ["Medium Frame"]
 			},
 			{
 				"name": "Heavy Frame, Bolschev",
 				"factions": [],
 				"order": 1,
+				"statLimits": [
+					{
+						"stat": "weight",
+						"limit": 30
+					}
+				],
 				"limits": [
 					{
 						"key": "Frame",
@@ -1052,179 +1512,199 @@
 					{
 						"name": "Bipedal",
 						"addsPrefix": "Bipedal ",
-						"points": 0,
+						"materialPoints": 0,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Multi-Limbed",
 						"addsPrefix": "Multi-Limbed ",
-						"points": 40,
+						"materialPoints": 40,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Tracked",
 						"addsPrefix": "Tracked ",
-						"points": 30,
+						"materialPoints": 30,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Ablative Armor",
-						"points": 10,
+						"weightReduction": -1,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"max": 7
 					},
 					{
 						"name": "Anti-Tank Missile (H)",
-						"points": 30,
+						"weightReduction": -15,
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Autocannon",
-						"points": 50,
+						"weightReduction": -7,
+						"materialPoints": 50,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Ballistic Shield",
-						"points": 35,
+						"weightReduction": -7,
+						"materialPoints": 35,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Howitzer",
-						"points": 60,
+						"weightReduction": -10,
+						"materialPoints": 60,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Laser",
-						"points": 60,
+						"weightReduction": -9,
+						"materialPoints": 60,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Rapid Fire Energy Weapon",
-						"points": 55,
+						"weightReduction": -9,
+						"materialPoints": 55,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Rifle",
-						"points": 50,
+						"weightReduction": -8,
+						"materialPoints": 50,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Rocket Pack (H)",
-						"points": 30,
+						"weightReduction": -15,
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Rotary Cannon",
-						"points": 25,
+						"weightReduction": -7,
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Shot Cannon",
-						"points": 55,
+						"weightReduction": -7,
+						"materialPoints": 55,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Thermal Spear",
-						"points": 35,
+						"weightReduction": -7,
+						"materialPoints": 35,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Melee Weapon",
-						"points": 20,
+						"weightReduction": -6,
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Melee Weapon, Energy",
-						"points": 25,
+						"weightReduction": -3,
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Chaff Launcher",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"weightReduction": -1,
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Ejection System",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"weightReduction": -1,
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
-						"name": "Electronic Counter MEasures",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"name": "Electronic Counter Measures",
+						"weightReduction": -2,
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Energy Shielding",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"weightReduction": -2,
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Fuel Reserves",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"weightReduction": -2,
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Heat Sink",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"weightReduction": -1,
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					}
 				],
 				"keywords": [],
 				"specialText": "",
-				"equipment": []
+				"equipment": ["Heavy Frame"]
 			},
 			{
 				"name": "Light Frame, The Burg",
@@ -1253,6 +1733,12 @@
 				"points": 0,
 				"models": 1,
 				"limit": 2,
+				"statLimits": [
+					{
+						"stat": "weight",
+						"limit": 15
+					}
+				],
 				"sortPriority": 1,
 				"limits": [
 					{
@@ -1265,181 +1751,181 @@
 					{
 						"name": "Bipedal",
 						"addsPrefix": "Bipedal ",
-						"points": 0,
+						"materialPoints": 0,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Jet",
 						"addsPrefix": "Jet ",
-						"points": 20,
+						"materialPoints": 20,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Multi-Limbed",
 						"addsPrefix": "Multi-Limbed ",
-						"points": 20,
+						"materialPoints": 20,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Tracked",
 						"addsPrefix": "Tracked ",
-						"points": 15,
+						"materialPoints": 15,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Ablative Armor",
-						"points": 10,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"max": 5
 					},
 					{
 						"name": "Anti-Tank Missile (L)",
-						"points": 10,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Autocannon",
-						"points": 20,
+						"name": "Autocannon (L)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Ballistic Shield",
-						"points": 15,
+						"name": "Ballistic Shield (L)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Laser",
-						"points": 30,
+						"name": "Laser (L)",
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rapid Fire Energy Weapon",
-						"points": 25,
+						"name": "Rapid Fire Energy Weapon (L)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rifle",
-						"points": 25,
+						"name": "Rifle (L)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Rocket Pack (L)",
-						"points": 10,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rotary Cannon",
-						"points": 15,
+						"name": "Rotary Cannon (L)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Shot Cannon",
-						"points": 25,
+						"name": "Shot Cannon (L)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Thermal Spear",
-						"points": 20,
+						"name": "Thermal Spear (L)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon",
-						"points": 10,
+						"name": "Melee Weapon (L)",
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon, Energy",
-						"points": 15,
+						"name": "Melee Weapon, Energy (L)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Chaff Launcher",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Decoy Beacon",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Ejection System",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
-						"name": "Electronic Counter MEasures",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"name": "Electronic Counter Measures",
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Energy Shielding",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Fuel Reserves",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Heat Sink",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					}
 				],
 				"keywords": [],
 				"specialText": "",
-				"equipment": []
+				"equipment": ["Light Frame"]
 			},
 			{
 				"name": "Medium Frame, The Burg",
@@ -1468,6 +1954,12 @@
 				"points": 0,
 				"models": 1,
 				"sortPriority": 1,
+				"statLimits": [
+					{
+						"stat": "weight",
+						"limit": 25
+					}
+				],
 				"limit": 4,
 				"limits": [
 					{
@@ -1480,186 +1972,192 @@
 					{
 						"name": "Bipedal",
 						"addsPrefix": "Bipedal ",
-						"points": 0,
+						"materialPoints": 0,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Jet",
 						"addsPrefix": "Jet ",
-						"points": 30,
+						"materialPoints": 30,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Multi-Limbed",
 						"addsPrefix": "Multi-Limbed ",
-						"points": 30,
+						"materialPoints": 30,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Tracked",
 						"addsPrefix": "Tracked ",
-						"points": 25,
+						"materialPoints": 25,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
-						"name": "Ablative Armor",
-						"points": 10,
+						"name": "Ablative Armor (M)",
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"max": 6
 					},
 					{
 						"name": "Anti-Tank Missile (M)",
-						"points": 20,
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Autocannon",
-						"points": 40,
+						"name": "Autocannon (M)",
+						"materialPoints": 40,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Ballistic Shield",
-						"points": 25,
+						"name": "Ballistic Shield (M)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Laser",
-						"points": 45,
+						"name": "Laser (M)",
+						"materialPoints": 45,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rapid Fire Energy Weapon",
-						"points": 45,
+						"name": "Rapid Fire Energy Weapon (M)",
+						"materialPoints": 45,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rifle",
-						"points": 40,
+						"name": "Rifle (M)",
+						"materialPoints": 40,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Rocket Pack (M)",
-						"points": 20,
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rotary Cannon",
-						"points": 20,
+						"name": "Rotary Cannon (M)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Shot Cannon",
-						"points": 45,
+						"name": "Shot Cannon (M)",
+						"materialPoints": 45,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Thermal Spear",
-						"points": 30,
+						"name": "Thermal Spear (M)",
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon",
-						"points": 15,
+						"name": "Melee Weapon (M)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon, Energy",
-						"points": 20,
+						"name": "Melee Weapon, Energy (M)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Chaff Launcher",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Decoy Beacon",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Ejection System",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
-						"name": "Electronic Counter MEasures",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"name": "Electronic Counter Measures",
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Energy Shielding",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Fuel Reserves",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Heat Sink",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					}
 				],
 				"keywords": [],
 				"specialText": "",
-				"equipment": []
+				"equipment": ["Medium Frame"]
 			},
 			{
 				"name": "Heavy Frame, The Burg",
 				"factions": [],
 				"order": 1,
+				"statLimits": [
+					{
+						"stat": "weight",
+						"limit": 30
+					}
+				],
 				"limit": 2,
 				"limits": [
 					{
@@ -1695,185 +2193,185 @@
 					{
 						"name": "Bipedal",
 						"addsPrefix": "Bipedal ",
-						"points": 0,
+						"materialPoints": 0,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Jet",
 						"addsPrefix": "Jet ",
-						"points": 50,
+						"materialPoints": 50,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Multi-Limbed",
 						"addsPrefix": "Multi-Limbed ",
-						"points": 40,
+						"materialPoints": 40,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Tracked",
 						"addsPrefix": "Tracked ",
-						"points": 30,
+						"materialPoints": 30,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Ablative Armor",
-						"points": 10,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"max": 7
 					},
 					{
 						"name": "Anti-Tank Missile (H)",
-						"points": 30,
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Autocannon",
-						"points": 50,
+						"name": "Autocannon (H)",
+						"materialPoints": 50,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Ballistic Shield",
-						"points": 35,
+						"name": "Ballistic Shield (H)",
+						"materialPoints": 35,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Howitzer",
-						"points": 60,
+						"name": "Howitzer (H)",
+						"materialPoints": 60,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Laser",
-						"points": 60,
+						"name": "Laser (H)",
+						"materialPoints": 60,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rapid Fire Energy Weapon",
-						"points": 55,
+						"name": "Rapid Fire Energy Weapon (H)",
+						"materialPoints": 55,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rifle",
-						"points": 50,
+						"name": "Rifle (H)",
+						"materialPoints": 50,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Rocket Pack (H)",
-						"points": 30,
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rotary Cannon",
-						"points": 25,
+						"name": "Rotary Cannon (H)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Shot Cannon",
-						"points": 55,
+						"name": "Shot Cannon (H)",
+						"materialPoints": 55,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Thermal Spear",
-						"points": 35,
+						"name": "Thermal Spear (H)",
+						"materialPoints": 35,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon",
-						"points": 20,
+						"name": "Melee Weapon (H)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon, Energy",
-						"points": 25,
+						"name": "Melee Weapon, Energy (H)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Chaff Launcher",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Ejection System",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
-						"name": "Electronic Counter MEasures",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"name": "Electronic Counter Measures",
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Energy Shielding",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Fuel Reserves",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Heat Sink",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					}
 				],
 				"keywords": [],
 				"specialText": "",
-				"equipment": []
+				"equipment": ["Heavy Frame"]
 			},
 			{
 				"name": "Light Frame, Ghosts of Tiamat",
@@ -1902,6 +2400,12 @@
 				"points": 0,
 				"models": 1,
 				"limit": 2,
+				"statLimits": [
+					{
+						"stat": "weight",
+						"limit": 15
+					}
+				],
 				"sortPriority": 1,
 				"limits": [
 					{
@@ -1914,181 +2418,181 @@
 					{
 						"name": "Bipedal",
 						"addsPrefix": "Bipedal ",
-						"points": 0,
+						"materialPoints": 0,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Jet",
 						"addsPrefix": "Jet ",
-						"points": 20,
+						"materialPoints": 20,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Multi-Limbed",
 						"addsPrefix": "Multi-Limbed ",
-						"points": 20,
+						"materialPoints": 20,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Tracked",
 						"addsPrefix": "Tracked ",
-						"points": 15,
+						"materialPoints": 15,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Ablative Armor",
-						"points": 10,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"max": 5
 					},
 					{
 						"name": "Anti-Tank Missile (L)",
-						"points": 10,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Autocannon",
-						"points": 20,
+						"name": "Autocannon (L)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Ballistic Shield",
-						"points": 15,
+						"name": "Ballistic Shield (L)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Laser",
-						"points": 30,
+						"name": "Laser (L)",
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rapid Fire Energy Weapon",
-						"points": 25,
+						"name": "Rapid Fire Energy Weapon (L)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rifle",
-						"points": 25,
+						"name": "Rifle (L)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Rocket Pack (L)",
-						"points": 10,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rotary Cannon",
-						"points": 15,
+						"name": "Rotary Cannon (L)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Shot Cannon",
-						"points": 25,
+						"name": "Shot Cannon (L)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Thermal Spear",
-						"points": 20,
+						"name": "Thermal Spear (L)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon",
-						"points": 10,
+						"name": "Melee Weapon (L)",
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon, Energy",
-						"points": 15,
+						"name": "Melee Weapon, Energy (L)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Chaff Launcher",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Decoy Beacon",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Ejection System",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
-						"name": "Electronic Counter MEasures",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"name": "Electronic Counter Measures",
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Energy Shielding",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Fuel Reserves",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Heat Sink",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					}
 				],
 				"keywords": [],
 				"specialText": "",
-				"equipment": []
+				"equipment": ["Light Frame"]
 			},
 			{
 				"name": "Medium Frame, Ghosts of Tiamat",
@@ -2117,6 +2621,12 @@
 				"points": 0,
 				"models": 1,
 				"sortPriority": 1,
+				"statLimits": [
+					{
+						"stat": "weight",
+						"limit": 25
+					}
+				],
 				"limit": 4,
 				"limits": [
 					{
@@ -2129,186 +2639,192 @@
 					{
 						"name": "Bipedal",
 						"addsPrefix": "Bipedal ",
-						"points": 0,
+						"materialPoints": 0,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Jet",
 						"addsPrefix": "Jet ",
-						"points": 30,
+						"materialPoints": 30,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Multi-Limbed",
 						"addsPrefix": "Multi-Limbed ",
-						"points": 30,
+						"materialPoints": 30,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Tracked",
 						"addsPrefix": "Tracked ",
-						"points": 25,
+						"materialPoints": 25,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
-						"name": "Ablative Armor",
-						"points": 10,
+						"name": "Ablative Armor (M)",
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"max": 6
 					},
 					{
 						"name": "Anti-Tank Missile (M)",
-						"points": 20,
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Autocannon",
-						"points": 40,
+						"name": "Autocannon (M)",
+						"materialPoints": 40,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Ballistic Shield",
-						"points": 25,
+						"name": "Ballistic Shield (M)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Laser",
-						"points": 45,
+						"name": "Laser (M)",
+						"materialPoints": 45,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rapid Fire Energy Weapon",
-						"points": 45,
+						"name": "Rapid Fire Energy Weapon (M)",
+						"materialPoints": 45,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rifle",
-						"points": 40,
+						"name": "Rifle (M)",
+						"materialPoints": 40,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Rocket Pack (M)",
-						"points": 20,
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rotary Cannon",
-						"points": 20,
+						"name": "Rotary Cannon (M)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Shot Cannon",
-						"points": 45,
+						"name": "Shot Cannon (M)",
+						"materialPoints": 45,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Thermal Spear",
-						"points": 30,
+						"name": "Thermal Spear (M)",
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon",
-						"points": 15,
+						"name": "Melee Weapon (M)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon, Energy",
-						"points": 20,
+						"name": "Melee Weapon, Energy (M)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Chaff Launcher",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Decoy Beacon",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Ejection System",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
-						"name": "Electronic Counter MEasures",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"name": "Electronic Counter Measures",
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Energy Shielding",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Fuel Reserves",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Heat Sink",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					}
 				],
 				"keywords": [],
 				"specialText": "",
-				"equipment": []
+				"equipment": ["Medium Frame"]
 			},
 			{
 				"name": "Heavy Frame, Ghosts of Tiamat",
 				"factions": [],
 				"order": 1,
+				"statLimits": [
+					{
+						"stat": "weight",
+						"limit": 30
+					}
+				],
 				"limit": 2,
 				"limits": [
 					{
@@ -2344,185 +2860,185 @@
 					{
 						"name": "Bipedal",
 						"addsPrefix": "Bipedal ",
-						"points": 0,
+						"materialPoints": 0,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Jet",
 						"addsPrefix": "Jet ",
-						"points": 50,
+						"materialPoints": 50,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Multi-Limbed",
 						"addsPrefix": "Multi-Limbed ",
-						"points": 40,
+						"materialPoints": 40,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Tracked",
 						"addsPrefix": "Tracked ",
-						"points": 30,
+						"materialPoints": 30,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Ablative Armor",
-						"points": 10,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"max": 7
 					},
 					{
 						"name": "Anti-Tank Missile (H)",
-						"points": 30,
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Autocannon",
-						"points": 50,
+						"name": "Autocannon (H)",
+						"materialPoints": 50,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Ballistic Shield",
-						"points": 35,
+						"name": "Ballistic Shield (H)",
+						"materialPoints": 35,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Howitzer",
-						"points": 60,
+						"name": "Howitzer (H)",
+						"materialPoints": 60,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Laser",
-						"points": 60,
+						"name": "Laser (H)",
+						"materialPoints": 60,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rapid Fire Energy Weapon",
-						"points": 55,
+						"name": "Rapid Fire Energy Weapon (H)",
+						"materialPoints": 55,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rifle",
-						"points": 50,
+						"name": "Rifle (H)",
+						"materialPoints": 50,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Rocket Pack (H)",
-						"points": 30,
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rotary Cannon",
-						"points": 25,
+						"name": "Rotary Cannon (H)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Shot Cannon",
-						"points": 55,
+						"name": "Shot Cannon (H)",
+						"materialPoints": 55,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Thermal Spear",
-						"points": 35,
+						"name": "Thermal Spear (H)",
+						"materialPoints": 35,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon",
-						"points": 20,
+						"name": "Melee Weapon (H)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon, Energy",
-						"points": 25,
+						"name": "Melee Weapon, Energy (H)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Chaff Launcher",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Ejection System",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
-						"name": "Electronic Counter MEasures",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"name": "Electronic Counter Measures",
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Energy Shielding",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Fuel Reserves",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Heat Sink",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					}
 				],
 				"keywords": [],
 				"specialText": "",
-				"equipment": []
+				"equipment": ["Heavy Frame"]
 			},
 			{
 				"name": "Light Frame, Hinode",
@@ -2551,6 +3067,12 @@
 				"points": 0,
 				"models": 1,
 				"limit": 2,
+				"statLimits": [
+					{
+						"stat": "weight",
+						"limit": 15
+					}
+				],
 				"sortPriority": 1,
 				"limits": [
 					{
@@ -2563,175 +3085,175 @@
 					{
 						"name": "Bipedal",
 						"addsPrefix": "Bipedal ",
-						"points": 0,
+						"materialPoints": 0,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Jet",
 						"addsPrefix": "Jet ",
-						"points": 20,
+						"materialPoints": 20,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Multi-Limbed",
 						"addsPrefix": "Multi-Limbed ",
-						"points": 20,
+						"materialPoints": 20,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Ablative Armor",
-						"points": 10,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"max": 5
 					},
 					{
 						"name": "Anti-Tank Missile (L)",
-						"points": 10,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Autocannon",
-						"points": 20,
+						"name": "Autocannon (L)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Ballistic Shield",
-						"points": 15,
+						"name": "Ballistic Shield (L)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Laser",
-						"points": 30,
+						"name": "Laser (L)",
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rapid Fire Energy Weapon",
-						"points": 25,
+						"name": "Rapid Fire Energy Weapon (L)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rifle",
-						"points": 25,
+						"name": "Rifle (L)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Rocket Pack (L)",
-						"points": 10,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rotary Cannon",
-						"points": 15,
+						"name": "Rotary Cannon (L)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Shot Cannon",
-						"points": 25,
+						"name": "Shot Cannon (L)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Thermal Spear",
-						"points": 20,
+						"name": "Thermal Spear (L)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon",
-						"points": 10,
+						"name": "Melee Weapon (L)",
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon, Energy",
-						"points": 15,
+						"name": "Melee Weapon, Energy (L)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Chaff Launcher",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Decoy Beacon",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Ejection System",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
-						"name": "Electronic Counter MEasures",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"name": "Electronic Counter Measures",
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Energy Shielding",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Fuel Reserves",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Heat Sink",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					}
 				],
 				"keywords": [],
 				"specialText": "",
-				"equipment": []
+				"equipment": ["Light Frame"]
 			},
 			{
 				"name": "Medium Frame, Hinode",
@@ -2760,6 +3282,12 @@
 				"points": 0,
 				"models": 1,
 				"sortPriority": 1,
+				"statLimits": [
+					{
+						"stat": "weight",
+						"limit": 25
+					}
+				],
 				"limit": 6,
 				"limits": [
 					{
@@ -2772,180 +3300,186 @@
 					{
 						"name": "Bipedal",
 						"addsPrefix": "Bipedal ",
-						"points": 0,
+						"materialPoints": 0,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Jet",
 						"addsPrefix": "Jet ",
-						"points": 30,
+						"materialPoints": 30,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Multi-Limbed",
 						"addsPrefix": "Multi-Limbed ",
-						"points": 30,
+						"materialPoints": 30,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
-						"name": "Ablative Armor",
-						"points": 10,
+						"name": "Ablative Armor (M)",
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"max": 6
 					},
 					{
 						"name": "Anti-Tank Missile (M)",
-						"points": 20,
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Autocannon",
-						"points": 40,
+						"name": "Autocannon (M)",
+						"materialPoints": 40,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Ballistic Shield",
-						"points": 25,
+						"name": "Ballistic Shield (M)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Laser",
-						"points": 45,
+						"name": "Laser (M)",
+						"materialPoints": 45,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rapid Fire Energy Weapon",
-						"points": 45,
+						"name": "Rapid Fire Energy Weapon (M)",
+						"materialPoints": 45,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rifle",
-						"points": 40,
+						"name": "Rifle (M)",
+						"materialPoints": 40,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Rocket Pack (M)",
-						"points": 20,
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rotary Cannon",
-						"points": 20,
+						"name": "Rotary Cannon (M)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Shot Cannon",
-						"points": 45,
+						"name": "Shot Cannon (M)",
+						"materialPoints": 45,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Thermal Spear",
-						"points": 30,
+						"name": "Thermal Spear (M)",
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon",
-						"points": 15,
+						"name": "Melee Weapon (M)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon, Energy",
-						"points": 20,
+						"name": "Melee Weapon, Energy (M)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Chaff Launcher",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Decoy Beacon",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Ejection System",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
-						"name": "Electronic Counter MEasures",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"name": "Electronic Counter Measures",
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Energy Shielding",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Fuel Reserves",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Heat Sink",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					}
 				],
 				"keywords": [],
 				"specialText": "",
-				"equipment": []
+				"equipment": ["Medium Frame"]
 			},
 			{
 				"name": "Heavy Frame, Hinode",
 				"factions": [],
 				"order": 1,
+				"statLimits": [
+					{
+						"stat": "weight",
+						"limit": 30
+					}
+				],
 				"limit": 2,
 				"limits": [
 					{
@@ -2981,179 +3515,179 @@
 					{
 						"name": "Bipedal",
 						"addsPrefix": "Bipedal ",
-						"points": 0,
+						"materialPoints": 0,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Jet",
 						"addsPrefix": "Jet ",
-						"points": 50,
+						"materialPoints": 50,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Multi-Limbed",
 						"addsPrefix": "Multi-Limbed ",
-						"points": 40,
+						"materialPoints": 40,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Ablative Armor",
-						"points": 10,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"max": 7
 					},
 					{
 						"name": "Anti-Tank Missile (H)",
-						"points": 30,
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Autocannon",
-						"points": 50,
+						"name": "Autocannon (H)",
+						"materialPoints": 50,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Ballistic Shield",
-						"points": 35,
+						"name": "Ballistic Shield (H)",
+						"materialPoints": 35,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Howitzer",
-						"points": 60,
+						"name": "Howitzer (H)",
+						"materialPoints": 60,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Laser",
-						"points": 60,
+						"name": "Laser (H)",
+						"materialPoints": 60,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rapid Fire Energy Weapon",
-						"points": 55,
+						"name": "Rapid Fire Energy Weapon (H)",
+						"materialPoints": 55,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rifle",
-						"points": 50,
+						"name": "Rifle (H)",
+						"materialPoints": 50,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Rocket Pack (H)",
-						"points": 30,
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rotary Cannon",
-						"points": 25,
+						"name": "Rotary Cannon (H)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Shot Cannon",
-						"points": 55,
+						"name": "Shot Cannon (H)",
+						"materialPoints": 55,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Thermal Spear",
-						"points": 35,
+						"name": "Thermal Spear (H)",
+						"materialPoints": 35,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon",
-						"points": 20,
+						"name": "Melee Weapon (H)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon, Energy",
-						"points": 25,
+						"name": "Melee Weapon, Energy (H)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Chaff Launcher",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Ejection System",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
-						"name": "Electronic Counter MEasures",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"name": "Electronic Counter Measures",
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Energy Shielding",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Fuel Reserves",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Heat Sink",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					}
 				],
 				"keywords": [],
 				"specialText": "",
-				"equipment": []
+				"equipment": ["Heavy Frame"]
 			},
 			{
 				"name": "Light Frame, North-Star",
@@ -3182,6 +3716,12 @@
 				"points": 0,
 				"models": 1,
 				"limit": 2,
+				"statLimits": [
+					{
+						"stat": "weight",
+						"limit": 15
+					}
+				],
 				"sortPriority": 1,
 				"limits": [
 					{
@@ -3194,181 +3734,181 @@
 					{
 						"name": "Bipedal",
 						"addsPrefix": "Bipedal ",
-						"points": 0,
+						"materialPoints": 0,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Jet",
 						"addsPrefix": "Jet ",
-						"points": 20,
+						"materialPoints": 20,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Multi-Limbed",
 						"addsPrefix": "Multi-Limbed ",
-						"points": 20,
+						"materialPoints": 20,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Tracked",
 						"addsPrefix": "Tracked ",
-						"points": 15,
+						"materialPoints": 15,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Ablative Armor",
-						"points": 10,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"max": 5
 					},
 					{
 						"name": "Anti-Tank Missile (L)",
-						"points": 10,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Autocannon",
-						"points": 20,
+						"name": "Autocannon (L)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Ballistic Shield",
-						"points": 15,
+						"name": "Ballistic Shield (L)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Laser",
-						"points": 30,
+						"name": "Laser (L)",
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rapid Fire Energy Weapon",
-						"points": 25,
+						"name": "Rapid Fire Energy Weapon (L)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rifle",
-						"points": 25,
+						"name": "Rifle (L)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Rocket Pack (L)",
-						"points": 10,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rotary Cannon",
-						"points": 15,
+						"name": "Rotary Cannon (L)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Shot Cannon",
-						"points": 25,
+						"name": "Shot Cannon (L)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Thermal Spear",
-						"points": 20,
+						"name": "Thermal Spear (L)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon",
-						"points": 10,
+						"name": "Melee Weapon (L)",
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon, Energy",
-						"points": 15,
+						"name": "Melee Weapon, Energy (L)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Chaff Launcher",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Decoy Beacon",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Ejection System",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
-						"name": "Electronic Counter MEasures",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"name": "Electronic Counter Measures",
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Energy Shielding",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Fuel Reserves",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Heat Sink",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					}
 				],
 				"keywords": [],
 				"specialText": "",
-				"equipment": []
+				"equipment": ["Light Frame"]
 			},
 			{
 				"name": "Medium Frame, North-Star",
@@ -3397,6 +3937,12 @@
 				"points": 0,
 				"models": 1,
 				"sortPriority": 1,
+				"statLimits": [
+					{
+						"stat": "weight",
+						"limit": 25
+					}
+				],
 				"limit": 6,
 				"limits": [
 					{
@@ -3409,186 +3955,192 @@
 					{
 						"name": "Bipedal",
 						"addsPrefix": "Bipedal ",
-						"points": 0,
+						"materialPoints": 0,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Jet",
 						"addsPrefix": "Jet ",
-						"points": 30,
+						"materialPoints": 30,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Multi-Limbed",
 						"addsPrefix": "Multi-Limbed ",
-						"points": 30,
+						"materialPoints": 30,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Tracked",
 						"addsPrefix": "Tracked ",
-						"points": 25,
+						"materialPoints": 25,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
-						"name": "Ablative Armor",
-						"points": 10,
+						"name": "Ablative Armor (M)",
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"max": 6
 					},
 					{
 						"name": "Anti-Tank Missile (M)",
-						"points": 20,
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Autocannon",
-						"points": 40,
+						"name": "Autocannon (M)",
+						"materialPoints": 40,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Ballistic Shield",
-						"points": 25,
+						"name": "Ballistic Shield (M)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Laser",
-						"points": 45,
+						"name": "Laser (M)",
+						"materialPoints": 45,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rapid Fire Energy Weapon",
-						"points": 45,
+						"name": "Rapid Fire Energy Weapon (M)",
+						"materialPoints": 45,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rifle",
-						"points": 40,
+						"name": "Rifle (M)",
+						"materialPoints": 40,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Rocket Pack (M)",
-						"points": 20,
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rotary Cannon",
-						"points": 20,
+						"name": "Rotary Cannon (M)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Shot Cannon",
-						"points": 45,
+						"name": "Shot Cannon (M)",
+						"materialPoints": 45,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Thermal Spear",
-						"points": 30,
+						"name": "Thermal Spear (M)",
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon",
-						"points": 15,
+						"name": "Melee Weapon (M)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon, Energy",
-						"points": 20,
+						"name": "Melee Weapon, Energy (M)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Chaff Launcher",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Decoy Beacon",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Ejection System",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
-						"name": "Electronic Counter MEasures",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"name": "Electronic Counter Measures",
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Energy Shielding",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Fuel Reserves",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Heat Sink",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					}
 				],
 				"keywords": [],
 				"specialText": "",
-				"equipment": []
+				"equipment": ["Medium Frame"]
 			},
 			{
 				"name": "Heavy Frame, North-Star",
 				"factions": [],
 				"order": 1,
+				"statLimits": [
+					{
+						"stat": "weight",
+						"limit": 30
+					}
+				],
 				"limit": 1,
 				"limits": [
 					{
@@ -3624,185 +4176,185 @@
 					{
 						"name": "Bipedal",
 						"addsPrefix": "Bipedal ",
-						"points": 0,
+						"materialPoints": 0,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Jet",
 						"addsPrefix": "Jet ",
-						"points": 50,
+						"materialPoints": 50,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Multi-Limbed",
 						"addsPrefix": "Multi-Limbed ",
-						"points": 40,
+						"materialPoints": 40,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Tracked",
 						"addsPrefix": "Tracked ",
-						"points": 30,
+						"materialPoints": 30,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Ablative Armor",
-						"points": 10,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"max": 7
 					},
 					{
 						"name": "Anti-Tank Missile (H)",
-						"points": 30,
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Autocannon",
-						"points": 50,
+						"name": "Autocannon (H)",
+						"materialPoints": 50,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Ballistic Shield",
-						"points": 35,
+						"name": "Ballistic Shield (H)",
+						"materialPoints": 35,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Howitzer",
-						"points": 60,
+						"name": "Howitzer (H)",
+						"materialPoints": 60,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Laser",
-						"points": 60,
+						"name": "Laser (H)",
+						"materialPoints": 60,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rapid Fire Energy Weapon",
-						"points": 55,
+						"name": "Rapid Fire Energy Weapon (H)",
+						"materialPoints": 55,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rifle",
-						"points": 50,
+						"name": "Rifle (H)",
+						"materialPoints": 50,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Rocket Pack (H)",
-						"points": 30,
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rotary Cannon",
-						"points": 25,
+						"name": "Rotary Cannon (H)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Shot Cannon",
-						"points": 55,
+						"name": "Shot Cannon (H)",
+						"materialPoints": 55,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Thermal Spear",
-						"points": 35,
+						"name": "Thermal Spear (H)",
+						"materialPoints": 35,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon",
-						"points": 20,
+						"name": "Melee Weapon (H)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon, Energy",
-						"points": 25,
+						"name": "Melee Weapon, Energy (H)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Chaff Launcher",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Ejection System",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
-						"name": "Electronic Counter MEasures",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"name": "Electronic Counter Measures",
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Energy Shielding",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Fuel Reserves",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Heat Sink",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					}
 				],
 				"keywords": [],
 				"specialText": "",
-				"equipment": []
+				"equipment": ["Heavy Frame"]
 			},
 			{
 				"name": "Light Frame, Ronin",
@@ -3831,6 +4383,12 @@
 				"points": 0,
 				"models": 1,
 				"limit": 2,
+				"statLimits": [
+					{
+						"stat": "weight",
+						"limit": 15
+					}
+				],
 				"sortPriority": 1,
 				"limits": [
 					{
@@ -3843,181 +4401,181 @@
 					{
 						"name": "Bipedal",
 						"addsPrefix": "Bipedal ",
-						"points": 0,
+						"materialPoints": 0,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Jet",
 						"addsPrefix": "Jet ",
-						"points": 20,
+						"materialPoints": 20,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Multi-Limbed",
 						"addsPrefix": "Multi-Limbed ",
-						"points": 20,
+						"materialPoints": 20,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Tracked",
 						"addsPrefix": "Tracked ",
-						"points": 15,
+						"materialPoints": 15,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Ablative Armor",
-						"points": 10,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"max": 5
 					},
 					{
 						"name": "Anti-Tank Missile (L)",
-						"points": 10,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Autocannon",
-						"points": 20,
+						"name": "Autocannon (L)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Ballistic Shield",
-						"points": 15,
+						"name": "Ballistic Shield (L)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Laser",
-						"points": 30,
+						"name": "Laser (L)",
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rapid Fire Energy Weapon",
-						"points": 25,
+						"name": "Rapid Fire Energy Weapon (L)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rifle",
-						"points": 25,
+						"name": "Rifle (L)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Rocket Pack (L)",
-						"points": 10,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rotary Cannon",
-						"points": 15,
+						"name": "Rotary Cannon (L)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Shot Cannon",
-						"points": 25,
+						"name": "Shot Cannon (L)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 1,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Thermal Spear",
-						"points": 20,
+						"name": "Thermal Spear (L)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon",
-						"points": 10,
+						"name": "Melee Weapon (L)",
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon, Energy",
-						"points": 15,
+						"name": "Melee Weapon, Energy (L)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 2,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Chaff Launcher",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Decoy Beacon",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Ejection System",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
-						"name": "Electronic Counter MEasures",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"name": "Electronic Counter Measures",
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Energy Shielding",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Fuel Reserves",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Heat Sink",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					}
 				],
 				"keywords": [],
 				"specialText": "",
-				"equipment": []
+				"equipment": ["Light Frame"]
 			},
 			{
 				"name": "Medium Frame, Ronin",
@@ -4046,6 +4604,12 @@
 				"points": 0,
 				"models": 1,
 				"sortPriority": 1,
+				"statLimits": [
+					{
+						"stat": "weight",
+						"limit": 25
+					}
+				],
 				"limit": 4,
 				"limits": [
 					{
@@ -4058,186 +4622,192 @@
 					{
 						"name": "Bipedal",
 						"addsPrefix": "Bipedal ",
-						"points": 0,
+						"materialPoints": 0,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Jet",
 						"addsPrefix": "Jet ",
-						"points": 30,
+						"materialPoints": 30,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Multi-Limbed",
 						"addsPrefix": "Multi-Limbed ",
-						"points": 30,
+						"materialPoints": 30,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Tracked",
 						"addsPrefix": "Tracked ",
-						"points": 25,
+						"materialPoints": 25,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
-						"name": "Ablative Armor",
-						"points": 10,
+						"name": "Ablative Armor (M)",
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"max": 6
 					},
 					{
 						"name": "Anti-Tank Missile (M)",
-						"points": 20,
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Autocannon",
-						"points": 40,
+						"name": "Autocannon (M)",
+						"materialPoints": 40,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Ballistic Shield",
-						"points": 25,
+						"name": "Ballistic Shield (M)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Laser",
-						"points": 45,
+						"name": "Laser (M)",
+						"materialPoints": 45,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rapid Fire Energy Weapon",
-						"points": 45,
+						"name": "Rapid Fire Energy Weapon (M)",
+						"materialPoints": 45,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rifle",
-						"points": 40,
+						"name": "Rifle (M)",
+						"materialPoints": 40,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Rocket Pack (M)",
-						"points": 20,
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rotary Cannon",
-						"points": 20,
+						"name": "Rotary Cannon (M)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Shot Cannon",
-						"points": 45,
+						"name": "Shot Cannon (M)",
+						"materialPoints": 45,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Thermal Spear",
-						"points": 30,
+						"name": "Thermal Spear (M)",
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon",
-						"points": 15,
+						"name": "Melee Weapon (M)",
+						"materialPoints": 15,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon, Energy",
-						"points": 20,
+						"name": "Melee Weapon, Energy (M)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 3,
 						"max": 3,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Chaff Launcher",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Decoy Beacon",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Ejection System",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
-						"name": "Electronic Counter MEasures",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"name": "Electronic Counter Measures",
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Energy Shielding",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Fuel Reserves",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Heat Sink",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					}
 				],
 				"keywords": [],
 				"specialText": "",
-				"equipment": []
+				"equipment": ["Medium Frame"]
 			},
 			{
 				"name": "Heavy Frame, Ronin",
 				"factions": [],
 				"order": 1,
+				"statLimits": [
+					{
+						"stat": "weight",
+						"limit": 30
+					}
+				],
 				"limit": 2,
 				"limits": [
 					{
@@ -4273,185 +4843,185 @@
 					{
 						"name": "Bipedal",
 						"addsPrefix": "Bipedal ",
-						"points": 0,
+						"materialPoints": 0,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Jet",
 						"addsPrefix": "Jet ",
-						"points": 50,
+						"materialPoints": 50,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Multi-Limbed",
 						"addsPrefix": "Multi-Limbed ",
-						"points": 40,
+						"materialPoints": 40,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Tracked",
 						"addsPrefix": "Tracked ",
-						"points": 30,
+						"materialPoints": 30,
 						"requireChooseOneKey": "propulsion"
 					},
 					{
 						"name": "Ablative Armor",
-						"points": 10,
+						"materialPoints": 10,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"max": 7
 					},
 					{
 						"name": "Anti-Tank Missile (H)",
-						"points": 30,
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Autocannon",
-						"points": 50,
+						"name": "Autocannon (H)",
+						"materialPoints": 50,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Ballistic Shield",
-						"points": 35,
+						"name": "Ballistic Shield (H)",
+						"materialPoints": 35,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Howitzer",
-						"points": 60,
+						"name": "Howitzer (H)",
+						"materialPoints": 60,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Laser",
-						"points": 60,
+						"name": "Laser (H)",
+						"materialPoints": 60,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rapid Fire Energy Weapon",
-						"points": 55,
+						"name": "Rapid Fire Energy Weapon (H)",
+						"materialPoints": 55,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rifle",
-						"points": 50,
+						"name": "Rifle (H)",
+						"materialPoints": 50,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Rocket Pack (H)",
-						"points": 30,
+						"materialPoints": 30,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Rotary Cannon",
-						"points": 25,
+						"name": "Rotary Cannon (H)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Shot Cannon",
-						"points": 55,
+						"name": "Shot Cannon (H)",
+						"materialPoints": 55,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 2,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Thermal Spear",
-						"points": 35,
+						"name": "Thermal Spear (H)",
+						"materialPoints": 35,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon",
-						"points": 20,
+						"name": "Melee Weapon (H)",
+						"materialPoints": 20,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
-						"name": "Melee Weapon, Energy",
-						"points": 25,
+						"name": "Melee Weapon, Energy (H)",
+						"materialPoints": 25,
 						"increment": true,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"],
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"],
 						"localLimit": 4,
 						"max": 4,
 						"maxKey": "gun"
 					},
 					{
 						"name": "Chaff Launcher",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Ejection System",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
-						"name": "Electronic Counter MEasures",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"name": "Electronic Counter Measures",
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Energy Shielding",
-						"points": 15,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 15,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Fuel Reserves",
-						"points": 20,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 20,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					},
 					{
 						"name": "Heat Sink",
-						"points": 10,
-						"unlockedByLocal": ["Bipedal","Multi-Limbed","Tracked"]
+						"materialPoints": 10,
+						"unlockedByLocal": ["Bipedal","Jet","Multi-Limbed","Tracked"]
 					}
 				],
 				"keywords": [],
 				"specialText": "",
-				"equipment": []
+				"equipment": ["Heavy Frame"]
 			}
 		]
 	}
